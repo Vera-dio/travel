@@ -1,0 +1,168 @@
+/*Обнуление стилей*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*Убираем линии обводки у некоторых браузеров*/
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+
+/*Делает теги блочными*/
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+/*Уравнивает поведение шрифтов и элементов для разных браузеров*/
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+/*Унаследовать по умолчанию семейство шрифта*/
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+/*--------------------*/
+/*Конец обнуления стилей*/
+
+body {
+	background-color: #e8e8e8;
+	color: #273d46;
+	line-height: 40px;
+}
+div {
+	border: 1px solid red;
+	margin: 0 auto;
+}
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: 14px;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	text-align: center;
+}
+h2 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 36px;
+	line-height: 50px;
+	text-align: center;
+}
+img {
+	width: 821px;
+	height: 541px;
+	display: block;
+	margin: 0 auto;
+}
+p {
+	font-family: "Times New Roman", Times, serif;
+	line-height: 40px;
+	font-size: 24px;
+	line-height: 40px;
+	width: 736px;
+	margin-left: 334px;
+	opacity: 0.8;
+	margin-top: 67px;
+	border: 1px solid #000;
+}
+.block_1 {
+	width: 1190px;
+	margin-top: 106px;
+	margin-left: 142px;
+	margin-right: 108px;
+}
+
+.block_2 {
+}
+
+.list {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	line-height: 36px;
+}
+.listitem1 {
+	text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+.listitem2 {
+	font-style: italic;
+	color: #80b7b3;
+}
+.listitem3 {
+	font-weight: 700;
+}
+.listitem4 {
+	text-decoration: line-through;
+	opacity: 0.3;
+}
+.button {
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	color: #ffffff;
+	width: 199px;
+	height: 44px;
+	background-color: rgba(128, 183, 179, 0.54);
+	border-radius: 50px;
+	text-align: center;
+	margin: auto;
+}
