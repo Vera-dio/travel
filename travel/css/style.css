@@ -92,7 +92,7 @@ body {
 	line-height: 40px;
 }
 div {
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	margin: 0 auto;
 }
 h1 {
@@ -101,6 +101,7 @@ h1 {
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
 	text-align: center;
+	opacity: 0.6;
 }
 h2 {
 	font-family: "Times New Roman", Times, serif;
@@ -108,37 +109,45 @@ h2 {
 	line-height: 50px;
 	text-align: center;
 }
-img {
-	width: 821px;
-	height: 541px;
+.exemple-image {
+	max-width: 841px;
+	height: 561px;
 	display: block;
-	margin: 0 auto;
+	margin: 55px auto 90px;
+	border: 10px solid white;
 }
 p {
 	font-family: "Times New Roman", Times, serif;
 	line-height: 40px;
 	font-size: 24px;
 	line-height: 40px;
-	width: 736px;
-	margin-left: 334px;
+	width: 740px;
 	opacity: 0.8;
-	margin-top: 67px;
-	border: 1px solid #000;
+	/* border: 1px solid #000; */
+	margin: 0 auto 40px;
+	overflow: visible;
 }
 .block_1 {
 	width: 1190px;
+	height: 1064px;
 	margin-top: 106px;
 	margin-left: 142px;
 	margin-right: 108px;
-}
-
-.block_2 {
+	padding-top: 62px;
+	background: url(/travel/img/ellipse_1_copy_4.jpg);
 }
 
 .list {
+	display: block;
+	margin: 167px auto 50px 367px;
+	/* border: 1px solid #000; */
+}
+.list li {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 20px;
 	line-height: 36px;
+	background: url(/travel/img/check_icon_39.png) left center no-repeat;
+	padding: 0px 0px 0px 30px;
 }
 .listitem1 {
 	text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
@@ -161,8 +170,10 @@ p {
 	color: #ffffff;
 	width: 199px;
 	height: 44px;
-	background-color: rgba(128, 183, 179, 0.54);
 	border-radius: 50px;
-	text-align: center;
-	margin: auto;
+	text-align: left;
+	padding-left: 30px;
+	margin: 0px auto 100px 367px;
+	box-shadow: 0px 6px 40px 0px;
+	background: rgba(128, 183, 179) url(/travel/img/shape_2_9.png) 150px center no-repeat;
 }
